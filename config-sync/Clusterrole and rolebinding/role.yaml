@@ -1,0 +1,9 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: deployment-lister
+  namespace: anthos-test
+rules:
+- apiGroups: ["apps"]
+  resources: ["deployments","services", "pods"]
+  verbs: ["get","watch","list","create", "update", "delete"]
