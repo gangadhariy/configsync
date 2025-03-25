@@ -16,7 +16,7 @@ spec:
       - name: nginx
         image: gcr.io/google-samples/hello-app:1.0
         ports:
-        - containerPort: 80
+        - containerPort: 8080
 ---
 
 
