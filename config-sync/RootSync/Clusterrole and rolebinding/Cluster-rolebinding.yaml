@@ -4,7 +4,7 @@ metadata:
   name: deployment-lister-binding
 subjects:
 - kind: ServiceAccount
-  name: reconciler-manager 
+  name: ns-reconciler-anthos-test-config-repo-sync-16
   namespace: config-management-system
 roleRef:
   kind: ClusterRole
