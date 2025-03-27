@@ -7,6 +7,6 @@ subjects:
   name: reconciler-manager 
   namespace: config-management-system
 roleRef:
-  kind: Role
+  kind: ClusterRole
   name: deployment-lister
   apiGroup: rbac.authorization.k8s.io
